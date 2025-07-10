@@ -1,5 +1,5 @@
 const { Client, Events, GatewayIntentBits, REST, Routes, SlashCommandBuilder } = require('discord.js');
-const token = "MTM5MjQ2NjQ1OTQwNTU4NjQ5Mg.Gt4W17.ZUMs9VWO3gNN6H7HUrbBE9jFAeY9lykARC_CcU";
+const token = process.env.DISCORD_TOKEN;
 const clientId = "1392466459405586492"; // BotのクライアントID
 
 // スラッシュコマンド登録
